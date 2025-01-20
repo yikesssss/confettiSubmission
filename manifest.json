@@ -1,0 +1,19 @@
+{
+    "name": "Confetti on Submit",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Get rewarded with a screen full of confetti when you submit your assignement on eClass",
+    "icons": {
+        "16": "images/confetti16.png",
+        "32": "images/confetti32.png",
+        "48": "images/confetti48.png",
+        "128": "images/confetti128.png"
+    },
+    "permissions": ["storage"],
+    "content_scripts": [
+        {
+            "matches": ["https://eclass*"],
+            "js": ["confetti.js"]
+        }
+    ]
+}
