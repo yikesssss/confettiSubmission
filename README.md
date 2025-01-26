@@ -1,2 +1,3 @@
 # confettiSubmission
-A screen full of confetti is displayed when the submit button on eclass is clicked.
+
+Get rewarded with a screen full of confetti when you submit your assignement on eClass.
