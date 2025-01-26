@@ -8,7 +8,6 @@ function createCanvas() {
     canvas.style.width = "100%";
     canvas.style.height = "100%";
     canvas.style.zIndex = "9999";
-    // canvas.style.pointerEvents = "none"; // Ignore pointer events
     document.body.appendChild(canvas);
     return canvas;
 }
